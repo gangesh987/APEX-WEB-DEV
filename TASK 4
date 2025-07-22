@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Project Plan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+    h1 {
+      color: #004d40;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00695c;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project-box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 6px;
+      margin-top: 10px;
+      background: #e0f2f1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Task 1: HTML, CSS, and JS Fundamentals</h1>
+  <section>
+    <h2>1. Understand HTML Structure</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Learn basic structure of web pages using HTML.<br>
+      <strong>Actions:</strong> Practice using tags like headings, paragraphs, links, images, lists, tables, and forms.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Learn CSS Styling</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Style HTML elements with CSS.<br>
+      <strong>Actions:</strong> Use selectors, properties, and values to change colors, layout, spacing, and fonts. Try Flexbox and Grid.
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Explore JavaScript Basics</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Make web pages interactive.<br>
+      <strong>Actions:</strong> Use variables, functions, events, loops, and conditionals. Try simple DOM manipulation like changing text, toggling classes, and responding to button clicks.
+    </div>
+  </section>
+
+  <h1>Task 4: Full Project Implementation</h1>
+  <section>
+    <h2>1. Build a Personal Portfolio</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Showcase skills and projects.<br>
+      <strong>Actions:</strong> Design and develop a personal portfolio site including sections for bio, projects, contact form, etc.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Create a To-Do List Application</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Implement interactivity with JavaScript.<br>
+      <strong>Actions:</strong> Build a to-do list where users can add, delete, and mark tasks. Use local storage for saving tasks.
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Develop a Product Listing Page</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Practice layout and data handling.<br>
+      <strong>Actions:</strong> Build a product listing with filters and sorting features. Show image, name, price, and sort them by name/price.
+    </div>
+  </section>
+
+  <h1>Task 5: Final Project and Optimization</h1>
+  <p><strong>Timeline:</strong> 9 Days</p>
+
+  <section>
+    <h2>1. Build a Full Web Application (Capstone Project)</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Integrate all skills into one complete web app.<br>
+      <strong>Actions:</strong> Develop a final project (e.g., an e-commerce site, blog, or advanced portfolio) with dynamic features, using HTML, CSS, and JavaScript.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Optimize for Performance</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Ensure the application runs efficiently and loads quickly.<br>
+      <strong>Actions:</strong> Minimize CSS and JavaScript files, apply lazy loading for images, reduce the number of HTTP requests, and optimize load times.
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Ensure Cross-Browser Compatibility and Mobile Responsiveness</h2>
+    <div class="project-box">
+      <strong>Objective:</strong> Guarantee the application works on all major browsers and devices.<br>
+      <strong>Actions:</strong> Test the project on Chrome, Firefox, Safari, and mobile browsers, fixing any compatibility or display issues.
+    </div>
+  </section>
+</body>
+</html>
