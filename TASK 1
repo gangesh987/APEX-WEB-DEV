@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 1: HTML, CSS, and JS Fundamentals</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 900px;
+    }
+    h2 {
+      color: #16a085;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .code-box {
+      background: #ecf0f1;
+      padding: 10px;
+      border-left: 4px solid #16a085;
+      font-family: monospace;
+      white-space: pre-wrap;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Task 1: HTML, CSS, and JS Fundamentals</h1>
+
+  <section>
+    <h2>Objective</h2>
+    <p>Understand the foundational concepts of web development using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section>
+    <h2>1. HTML (Structure)</h2>
+    <p>Use HTML to create the basic structure of a webpage.</p>
+    <ul>
+      <li>Use elements like <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;img&gt;</code>, etc.</li>
+      <li>Structure content with semantic tags like <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+    </ul>
+    <div class="code-box">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome!&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+    </div>
+  </section>
+
+  <section>
+    <h2>2. CSS (Styling)</h2>
+    <p>Use CSS to style the content and layout of the page.</p>
+    <ul>
+      <li>Apply colors, fonts, spacing, and responsive design.</li>
+      <li>Use selectors, classes, and IDs effectively.</li>
+    </ul>
+    <div class="code-box">
+body {
+  background: #f0f0f0;
+  font-family: Arial;
+}
+
+h1 {
+  color: #3498db;
+}
+    </div>
+  </section>
+
+  <section>
+    <h2>3. JavaScript (Interactivity)</h2>
+    <p>Use JavaScript to add interactivity to your webpage.</p>
+    <ul>
+      <li>Respond to user events like clicks and form inputs.</li>
+      <li>Manipulate the DOM and use basic logic/loops.</li>
+    </ul>
+    <div class="code-box">
+document.getElementById("btn").onclick = function() {
+  alert("Button clicked!");
+};
+    </div>
+  </section>
+
+</body>
+</html>
